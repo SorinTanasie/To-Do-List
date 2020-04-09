@@ -1,0 +1,53 @@
+body{
+    background: #352f5b;
+}
+
+.container{
+    max-width: 400px;
+}
+
+input[type=text],
+input[type=text]:focus{
+    color:#fff;
+    border:none;
+    background:rgba(0,0,0,0.2);
+}
+.todos li{
+    background:#423a6f;
+}
+
+.delete{
+    cursor: pointer;
+}
+.filtered{
+    display: none !important;
+}
+.search{
+    display:flex;
+    
+}
+.search i{
+    position: relative;
+    margin-top: 33px;
+    padding-right: 5px ;
+    
+}
+.plus-icon{
+    position: relative;
+    margin-top: 33px;
+    padding-left:5px ;
+}
+.tabs{
+    display: flex;
+}
+.active{
+    width:250px;
+    background:white!important;
+    color:black!important;
+    animation: mihaela 1s ease-in-out
+}
+
+@keyframes mihaela {
+    from{width:170px}
+    to{width: 250px;}
+}
